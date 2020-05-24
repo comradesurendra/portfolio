@@ -1,4 +1,4 @@
-.jiit {
+.intro {
   text-decoration: underline;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .top-container {
-  background-color: #e0ebe8;
+  background-color: #b7efcd;
   text-align: center;
   margin: 0;
   border: 0;
@@ -28,7 +28,6 @@
 body {
   margin: 0;
   font-family: 'Domine', serif;
-  color: grey;
   font-weight: 500;
 }
 
@@ -51,7 +50,7 @@ h1 {
   text-align: center;
   margin: 0;
   border: 0;
-  background-color: #e0ebe8;
+  background-color: #b7efcd;
   padding: 1rem 0 1rem 0;
 }
 
@@ -107,7 +106,7 @@ hr {
 
 .copyright {
   font-family: monospace;
-  font-size: 0.60rem;
+  font-size: 0.80rem;
   color: #45b29a;
 }
 
