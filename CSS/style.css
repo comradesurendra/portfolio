@@ -16,7 +16,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #faf2f2;
+  background-color: #a8e6cf;
   color: black;
 }
 
@@ -43,7 +43,7 @@
 }
 
 #top-container {
-  background-color: #b7efcd;
+  background-color: #a8e6cf;
   text-align: center;
   margin: 0;
   border: 0;
@@ -66,7 +66,7 @@ h1 {
   color: #45b29a;
 }
 h2 {
-  color: #f35588;
+  color: #45B29A;
   font-size: 1.5625rem;
   text-decoration: underline;
 }
