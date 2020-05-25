@@ -12,7 +12,15 @@
 </head>
 
 <body>
-  <div class="top-container">
+  <div class="topnav">
+    <a class="active" href="#top-container">Home</a>
+    <a href="#journey">Journey</a>
+    <a href="#tech-skill">Technical Skill</a>
+    <a href="#skills">Hobbies</a>
+    <a href="#butn">Contact me</a>
+  </div>
+
+  <div id="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="Cloud-image">
     <h1>I'm Surendra.</h1>
     <p class="head">a <span class="intro">pro</span>gramer</p>
@@ -26,11 +34,12 @@
   <div class="middle-container">
     <div class="profile">
       <img src="images/pro.png" alt="Nikhil-profile-pic" width="230px" height="240px">
-      <h2 class="hello">Hello.</h2>
-      <p>Hey, I'm a software developer. <br>I design, build & sometimes rescue applications.</p>
+      <h2 class="hello">Hey</h2>
+      <p class="para">I'm a software developer. <br>I design, build & sometimes rescue applications.</p>
     </div>
     <br>
-    <div class="skills">
+    <hr class="end">
+    <div id="journey">
       <h2>My Journey</h2>
       <div class="skill-row">
         <img class="journey" src="images/pixeltrue-web-development-1.png" alt="Web Development">
@@ -42,7 +51,7 @@
       <br>
       <div class="skill-row2">
         <img class="journeytwo" src="images/pixeltrue-teaching-1.png" alt="Data Analyst">
-        <h3>Data Analyst at Jio.</h3>
+        <h3>Data Analyst Intern at Jio.</h3>
         <h4>Dec 2018 - Jul 2019</h4>
         <p>I worked as a Data Analyst Intern at Jio.<br> As a Data Analyst, my job was to Acquire data from primary data sources and maintain databases.<br>Identify, analyze, and interpret trends or patterns in complex data sets.</p>
       </div>
@@ -65,14 +74,16 @@
     </div>
     <br>
     <br>
-    <div class="tech-skill">
+    <hr class="end">
+    <div id="tech-skill">
       <h2>My Technical Skill</h2>
       <pre> <img src="images/java.jpg" alt="C" class="lang">    <img src="images/cpp_logo.png" alt="C++" class="lang">    <img src="images/sql.png" alt="SQL" class="lang"> <img src="images/react.svg" alt="react" class="lang"></pre>
       <br>
       <pre> <img src="images/html.png" alt="HTML" class="lang">    <img src="images/css.png" alt="CSS" class="lang">    <img src="images/bootstrap.png" alt="BootStrap" class="lang"> <img src="images/javascript.png" alt="js" class="lang"></pre>
     </div>
     <br>
-    <div class="skills">
+    <hr class="end">
+    <div id="skills">
       <h2>My Hobbies.</h2>
       <div class="skill-row">
         <img class="tv-shows" src="https://media.giphy.com/media/Sb7WSbjHFNIL6/giphy.gif" alt="Watching-Tv-Shows">
@@ -94,8 +105,7 @@
       <h2>Get In Touch</h2>
       <h3>If you love cricket and Movies as much as I do Or have any Queries?</h3>
       <p>You can contact me as follow......</p>
-      <a class="butn" href="mailto:surendra10080@gmail.com">CONTACT ME</a>
-
+      <a id="butn" href="mailto:surendra10080@gmail.com">CONTACT ME</a>
     </div>
   </div>
 <br>

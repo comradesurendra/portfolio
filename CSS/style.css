@@ -1,3 +1,30 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #b7efcd;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #1b262c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #faf2f2;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f96d80;
+  color: white;
+}
 .intro {
   text-decoration: underline;
 }
@@ -15,13 +42,13 @@
   top: 10%;
 }
 
-.top-container {
+#top-container {
   background-color: #b7efcd;
   text-align: center;
   margin: 0;
   border: 0;
   padding: 6.25rem 6.25rem 3.125rem 6.25rem;
-  line-height: 1.5;
+  line-height: 1.7;
 
 }
 
@@ -38,12 +65,22 @@ h1 {
   font-family: 'Sacramento', cursive;
   color: #45b29a;
 }
+h2 {
+  color: #f35588;
+  font-size: 1.5625rem;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #45b29a;
+}
 
 .middle-container {
   text-align: center;
   margin: 0 auto;
   border: 0;
   line-height: 2;
+  background-color: #ffffff;
 }
 
 .bottom-container {
@@ -65,6 +102,10 @@ hr {
   border-width: 0.3125rem 0 0 0;
   width: 5%;
 }
+.para{
+  font-size: 2.25rem;
+  font-family: 'Sacramento', cursive;
+}
 
 .cricket {
   width: 15.625rem;
@@ -80,13 +121,19 @@ hr {
   margin-right: 20px;
 }
 
-.skills {
+#skills {
   width: 50%;
   line-height: 2;
   margin: 0 auto;
   text-align: left;
 }
-.tech-skill{
+#journey {
+  width: 50%;
+  line-height: 2;
+  margin: 0 auto;
+  text-align: left;
+}
+#tech-skill{
   width: 50%;
   line-height: 2;
   margin: 0 auto;
@@ -120,23 +167,14 @@ hr {
   height: 300px;
   width: 400px;
   float: right;
-  margin-left: 20px;
+  margin-left: 30px;
 }
+
 .journeytwo{
   height: 300px;
   width: 400px;
   float: left;
-  margin-left: 20px;
-}
-
-h2 {
-  color: #1e836c;
-  font-size: 1.5625rem;
-  text-decoration: underline;
-}
-
-h3 {
-  color: #45b29a;
+  margin-left: 30px;
 }
 
 .btn {
@@ -178,17 +216,18 @@ h3 {
 }
 
 .hello {
-  color: #1e836c;
+  color: #45b29a;
   font-size: 1.5625rem;
   text-decoration: none;
 }
-.butn {
-  background: #45b29a;
-  background-image: -webkit-linear-gradient(top, #45b29a, #45b29a);
-  background-image: -moz-linear-gradient(top, #45b29a, #45b29a);
-  background-image: -ms-linear-gradient(top, #45b29a, #45b29a);
-  background-image: -o-linear-gradient(top, #45b29a, #45b29a);
-  background-image: linear-gradient(to bottom, #45b29a, #45b29a);
+
+#butn {
+  background: #f688bb;
+  background-image: -webkit-linear-gradient(top, #f688bb, #f688bb);
+  background-image: -moz-linear-gradient(top, #f688bb, #f688bb);
+  background-image: -ms-linear-gradient(top, #f688bb, #f688bb);
+  background-image: -o-linear-gradient(top, #f688bb, #f688bb);
+  background-image: linear-gradient(to bottom, #f688bb, #f688bb);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
