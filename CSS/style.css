@@ -60,7 +60,7 @@ h1 {
 }
 
 hr {
-  border-color: #e0ebe8;
+  border-color: #a8df65;
   border-style: dotted;
   border-width: 0.3125rem 0 0 0;
   width: 5%;
@@ -81,6 +81,12 @@ hr {
 }
 
 .skills {
+  width: 50%;
+  line-height: 2;
+  margin: 0 auto;
+  text-align: left;
+}
+.tech-skill{
   width: 50%;
   line-height: 2;
   margin: 0 auto;
@@ -110,6 +116,19 @@ hr {
   color: #45b29a;
 }
 
+.journey{
+  height: 300px;
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+}
+.journeytwo{
+  height: 300px;
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+}
+
 h2 {
   color: #1e836c;
   font-size: 1.5625rem;
@@ -117,7 +136,7 @@ h2 {
 }
 
 h3 {
-  color: #1e836c;
+  color: #45b29a;
 }
 
 .btn {
@@ -129,7 +148,7 @@ h3 {
   border-color: #e0ebe8;
   border-style: dotted;
   border-width: 0.3125rem 0 0 0;
-  width: 10%;
+  width: 50%;
 }
 
 .lang {
