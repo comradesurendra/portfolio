@@ -1,0 +1,375 @@
+/* Performance optimized CSS */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1b262c;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #a8e6cf;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f96d80;
+  color: white;
+}
+
+.intro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  max-width: 100px;
+  height: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18%;
+  top: 10%;
+  max-width: 100px;
+  height: auto;
+}
+
+#top-container {
+  background-color: #a8e6cf;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 6.25rem 6.25rem 3.125rem 6.25rem;
+  line-height: 1.7;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Domine', serif;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: clamp(3rem, 8vw, 6.25rem);
+  font-family: 'Sacramento', cursive;
+  color: #45b29a;
+}
+
+h2 {
+  color: #45B29A;
+  font-size: clamp(1.25rem, 4vw, 1.5625rem);
+  text-decoration: underline;
+}
+
+h3 {
+  color: #45b29a;
+}
+
+.middle-container {
+  text-align: center;
+  margin: 0 auto;
+  border: 0;
+  line-height: 2;
+  background-color: #ffffff;
+  max-width: 1200px;
+}
+
+.bottom-container {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  background-color: #b7efcd;
+  padding: 1rem 0 1rem 0;
+}
+
+.profile {
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+hr {
+  border-color: #a8df65;
+  border-style: dotted;
+  border-width: 0.3125rem 0 0 0;
+  width: 5%;
+  margin: 2rem auto;
+}
+
+.para {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-family: 'Sacramento', cursive;
+}
+
+.cricket {
+  width: clamp(200px, 25vw, 250px);
+  height: auto;
+  float: right;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+.tv-shows {
+  width: clamp(200px, 25vw, 250px);
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+#skills {
+  width: 90%;
+  max-width: 800px;
+  line-height: 2;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#journey {
+  width: 90%;
+  max-width: 800px;
+  line-height: 2;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#tech-skill {
+  width: 90%;
+  max-width: 800px;
+  line-height: 2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+  justify-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: #45b29a;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #1b262c;
+}
+
+.mountain {
+  margin-bottom: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.head {
+  font-size: clamp(1.25rem, 3vw, 1.875rem);
+  color: #45b29a;
+  font-weight: 100;
+}
+
+.copyright {
+  font-family: monospace;
+  font-size: 0.80rem;
+  color: #45b29a;
+}
+
+.journey {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+
+.journeytwo {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  float: left;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #45b29a;
+}
+
+.sec {
+  border-color: #e0ebe8;
+  border-style: dotted;
+  border-width: 0.3125rem 0 0 0;
+  width: 50%;
+}
+
+.lang {
+  background-color: white;
+  width: clamp(80px, 15vw, 118px);
+  height: auto;
+  padding: 0.625rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lang:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.end {
+  border-style: solid;
+  border-color: #e0ebe8;
+  border-width: 0.125rem 0 0 0;
+  width: auto;
+}
+
+.skill-row {
+  padding-bottom: 2.1875rem;
+  line-height: 2;
+  text-align: left;
+  overflow: hidden;
+}
+
+.skill-row2 {
+  padding-top: 2.1875rem;
+  line-height: 2;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.hello {
+  color: #45b29a;
+  font-size: 1.5625rem;
+  text-decoration: none;
+}
+
+#butn {
+  background: #f688bb;
+  background-image: linear-gradient(to bottom, #f688bb, #f688bb);
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #FFFFFf;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-image 0.3s ease, transform 0.3s ease;
+}
+
+#butn:hover {
+  background-image: linear-gradient(to bottom, #1e836c, #1e836c);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #top-container {
+    padding: 3rem 1rem 1.5rem 1rem;
+  }
+  
+  .topnav a {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  .journey,
+  .journeytwo {
+    float: none;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  .cricket,
+  .tv-shows {
+    float: none;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  #skills,
+  #journey,
+  #tech-skill {
+    width: 95%;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+  
+  .footer-links {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .topnav a {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
+
+/* Performance optimizations */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reduce layout shifts */
+.topnav,
+#top-container,
+.middle-container,
+.bottom-container {
+  contain: layout style paint;
+}
